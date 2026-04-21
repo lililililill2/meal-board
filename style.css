@@ -24,7 +24,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  letter-spacing: -2%;
+  letter-spacing: -0.5px;
   line-height: 120%;
 }
 #frame86 {
@@ -48,7 +48,7 @@ html {
   color: #4e4e4e;
   display: flex;
   align-items: center;
-  letter-spacing: -2%;
+  letter-spacing: -0.5px;
   line-height: 120%;
 }
 #frame2_text_2 {
@@ -61,7 +61,7 @@ html {
   color: #4e4e4e;
   display: flex;
   align-items: center;
-  letter-spacing: -2%;
+  letter-spacing: -0.5px;
   line-height: 120%;
 }
 #frame85 {
@@ -81,7 +81,7 @@ html {
   color: #4e4e4e;
   display: flex;
   align-items: center;
-  letter-spacing: -2%;
+  letter-spacing: -0.5px;
   line-height: 120%;
 }
 #frame85_text {
@@ -94,7 +94,7 @@ html {
   color: #4e4e4e;
   display: flex;
   align-items: center;
-  letter-spacing: -2%;
+  letter-spacing: -0.5px;
   line-height: 120%;
   margin-bottom: 0px;
 }
@@ -124,7 +124,7 @@ html {
   color: #4e4e4e;
   display: flex;
   align-items: center;
-  letter-spacing: -2%;
+  letter-spacing: -0.5px;
   line-height: 120%;
   margin-bottom: 0px;
 }
@@ -172,8 +172,5 @@ html {
     width: 768px;
     height: auto;
     gap: 36px;
-    position: absolute;
-    top: 161px;
-    left: 128px;
   }
 }
