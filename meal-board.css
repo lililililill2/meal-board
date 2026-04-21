@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 html {
   display: flex;
   justify-content: center;
@@ -24,7 +27,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  letter-spacing: -2%;
+
   line-height: 120%;
 }
 #frame86 {
@@ -33,9 +36,6 @@ html {
   width: 768px;
   height: auto;
   gap: 36px;
-  position: absolute;
-  top: 161px;
-  left: 336px;
 }
 #frame2 {
   display: flex;
@@ -51,7 +51,7 @@ html {
   color: #4e4e4e;
   display: flex;
   align-items: center;
-  letter-spacing: -2%;
+
   line-height: 120%;
 }
 #frame2_text_2 {
@@ -84,7 +84,6 @@ html {
   color: #4e4e4e;
   display: flex;
   align-items: center;
-  letter-spacing: -2%;
   line-height: 120%;
 }
 #frame85_text {
@@ -97,7 +96,7 @@ html {
   color: #4e4e4e;
   display: flex;
   align-items: center;
-  letter-spacing: -2%;
+
   line-height: 120%;
   margin-bottom: 0px;
 }
@@ -108,7 +107,7 @@ html {
   height: auto;
   gap: 24px;
 }
-#frame8 {
+.frame8 {
   flex-direction: column;
   width: 240px;
   height: auto;
@@ -117,7 +116,7 @@ html {
   margin-right: 30px;
   margin-top: -20px;
 }
-#frame8_text {
+.frame8_text {
   width: 240px;
   height: 38px;
   font-family: "Pretendard";
@@ -127,7 +126,7 @@ html {
   color: #4e4e4e;
   display: flex;
   align-items: center;
-  letter-spacing: -2%;
+
   line-height: 120%;
   margin-bottom: 0px;
 }
@@ -155,7 +154,6 @@ html {
   width: 208px;
   height: 24px;
   font-family: "Pretendard";
-  font-style: Medium;
   font-size: 20px;
   font-weight: 500;
   color: #000000;
@@ -171,7 +169,7 @@ html {
     display: flex;
     width: 1024px;
     height: 56px;
-    padding: 16px, 0px, 16px;
+    padding: 16px 0px 16px;
     background-color: #ffffff;
     box-shadow: 2px 2px 5px 0 #00051c40;
     gap: 10px;
