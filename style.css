@@ -156,7 +156,7 @@ html {
     display: flex;
     width: 1024px;
     height: 56px;
-    padding: 16px, 0px, 16px;
+    padding: 16px 0px 16px;
     background-color: #ffffff;
     box-shadow: 2px 2px 5px 0 #00051c40;
     gap: 10px;
