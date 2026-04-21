@@ -2,6 +2,10 @@ html {
   display: flex;
   justify-content: center;
 }
+* {
+  box-sizing: border-box;
+}
+
 #frame87 {
   width: 1440px;
   height: 56px;
