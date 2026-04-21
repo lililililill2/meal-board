@@ -42,7 +42,7 @@ html {
   width: 242px;
   height: 43px;
   font-family: "Pretendard";
-  font-style: Bold;
+
   font-size: 36px;
   font-weight: 700;
   color: #4e4e4e;
@@ -55,7 +55,6 @@ html {
   width: 502px;
   height: 115px;
   font-family: "Pretendard";
-  font-style: Bold;
   font-size: 96px;
   font-weight: 700;
   color: #4e4e4e;
@@ -75,7 +74,6 @@ html {
   width: 502px;
   height: 115px;
   font-family: "Pretendard";
-  font-style: Bold;
   font-size: 96px;
   font-weight: 700;
   color: #4e4e4e;
@@ -88,7 +86,6 @@ html {
   width: 768px;
   height: 38px;
   font-family: "Pretendard";
-  font-style: Bold;
   font-size: 32px;
   font-weight: 700;
   color: #4e4e4e;
@@ -118,7 +115,6 @@ html {
   width: 240px;
   height: 38px;
   font-family: "Pretendard";
-  font-style: Bold;
   font-size: 32px;
   font-weight: 700;
   color: #4e4e4e;
@@ -145,7 +141,6 @@ html {
   width: 208px;
   height: 24px;
   font-family: "Pretendard";
-  font-style: Medium;
   font-size: 20px;
   font-weight: 500;
   color: #000000;
