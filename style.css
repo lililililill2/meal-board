@@ -33,9 +33,6 @@ html {
   width: 768px;
   height: auto;
   gap: 36px;
-  position: absolute;
-  top: 161px;
-  left: 336px;
 }
 #frame2 {
   display: flex;
@@ -108,7 +105,7 @@ html {
   height: auto;
   gap: 24px;
 }
-#frame8 {
+.frame8 {
   flex-direction: column;
   width: 240px;
   height: auto;
@@ -117,7 +114,7 @@ html {
   margin-right: 30px;
   margin-top: -20px;
 }
-#frame8_text {
+.frame8_text {
   width: 240px;
   height: 38px;
   font-family: "Pretendard";
@@ -131,7 +128,7 @@ html {
   line-height: 120%;
   margin-bottom: 0px;
 }
-#frame3 {
+.frame3 {
   flex-direction: column;
   width: 100%;
   height: 280px;
