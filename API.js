@@ -52,7 +52,7 @@ updateBtn.addEventListener("click", async function () {
     }
     setMealText("");
 
-    const meals = data.mealServiceDietInfo[1].row;
+    const meals = data?.mealServiceDietInfo?.[1]?.row;
 
     meals.forEach(function (meal) {
       const menu = meal.DDISH_NM.replace(/\([0-9.]+\)/g, "")
