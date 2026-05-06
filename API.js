@@ -28,7 +28,7 @@ updateBtn.addEventListener("click", async function () {
     timeText.innerText = `${h} : ${min} : ${s}`;
     titleText.innerText = `${Number(m)}월 ${Number(d)}일 광주 소마고의`;
 
-    const url = `https://open.neis.go.kr/hub/mealServiceDietInfo?KEY=3efbb2da62b244c681f3413c44a5a27f&Type=json&ATPT_OFCDC_SC_CODE=F10&SD_SCHUL_CODE=7380292&MLSV_YMD=${ymd}`;
+    const url = `https://open.neis.go.kr/hub/mealServiceDietInfo?KEY=${API.API_KEY}&Type=json&ATPT_OFCDC_SC_CODE=F10&SD_SCHUL_CODE=7380292&MLSV_YMD=${ymd}`;
 
     const res = await fetch(url);
 
