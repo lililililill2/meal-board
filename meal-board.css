@@ -1,11 +1,14 @@
-html {
-  display: flex;
-  justify-content: center;
-}
 * {
   box-sizing: border-box;
 }
-
+body {
+  display: flex;
+  justify-content: center;
+}
+#frame1 {
+  width: 1440px;
+  height: 1080px;
+}
 #frame87 {
   width: 1440px;
   height: 56px;
@@ -14,21 +17,19 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
 }
 #frame87_text {
   width: 768px;
   height: 24px;
-  top: 16px;
-  left: 336px;
+
   font-family: "Pretendard";
-  font-style: Bold;
   font-size: 20px;
   font-weight: 700;
   color: #4e4e4e;
   display: flex;
   align-items: center;
   justify-content: center;
-  letter-spacing: -0.5px;
   line-height: 120%;
 }
 #frame86 {
@@ -37,6 +38,7 @@ html {
   width: 768px;
   height: auto;
   gap: 36px;
+  margin-left: 336px;
 }
 #frame2 {
   display: flex;
@@ -46,13 +48,12 @@ html {
   width: 242px;
   height: 43px;
   font-family: "Pretendard";
-
   font-size: 36px;
   font-weight: 700;
   color: #4e4e4e;
   display: flex;
   align-items: center;
-  letter-spacing: -0.5px;
+
   line-height: 120%;
 }
 #frame2_text_2 {
@@ -64,7 +65,7 @@ html {
   color: #4e4e4e;
   display: flex;
   align-items: center;
-  letter-spacing: -0.5px;
+  letter-spacing: -2px;
   line-height: 120%;
 }
 #frame85 {
@@ -83,7 +84,6 @@ html {
   color: #4e4e4e;
   display: flex;
   align-items: center;
-  letter-spacing: -0.5px;
   line-height: 120%;
 }
 #frame85_text {
@@ -95,7 +95,7 @@ html {
   color: #4e4e4e;
   display: flex;
   align-items: center;
-  letter-spacing: -0.5px;
+
   line-height: 120%;
   margin-bottom: 0px;
 }
@@ -113,7 +113,6 @@ html {
   display: flex;
   gap: 16px;
   margin-right: 30px;
-  margin-top: -20px;
 }
 .frame8_text {
   width: 240px;
@@ -124,22 +123,28 @@ html {
   color: #4e4e4e;
   display: flex;
   align-items: center;
-  letter-spacing: -0.5px;
   line-height: 120%;
   margin-bottom: 0px;
 }
-.frame3 {
+.meal-box {
+  display: flex;
   flex-direction: column;
+  justify-content: space-around;
   width: 100%;
   height: 280px;
   padding: 16px;
   border-radius: 16px;
-  display: flex;
-  gap: 12px;
-  box-shadow: 0 0 16px 0 #00051c40;
   background-color: #ffffff;
-  display: flex;
-  justify-content: space-around;
+  box-shadow: 0 0 16px rgba(0, 5, 28, 0.25);
+}
+#update {
+  margin: 20px;
+  padding: 15px;
+  border-radius: 99px;
+  border: white;
+  background-color: white;
+  box-shadow: 2px 2px 5px 0 #00051c40;
+  font-size: 16px;
 }
 .frame3_text {
   width: 208px;
@@ -158,6 +163,7 @@ html {
 @media screen and (max-width: 1440px) {
   #frame87 {
     display: flex;
+    justify-content: center;
     width: 1024px;
     height: 56px;
     padding: 16px 0px 16px;
@@ -171,5 +177,6 @@ html {
     width: 768px;
     height: auto;
     gap: 36px;
+    margin-left: 128px;
   }
 }
