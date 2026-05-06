@@ -45,9 +45,12 @@ updateBtn.addEventListener("click", async function () {
       return;
     }
 
-    breakfast.innerHTML = "";
-    lunch.innerHTML = "";
-    dinner.innerHTML = "";
+    function setMealText(text) {
+      breakfast.innerText = text;
+      lunch.innerText = text;
+      dinner.innerText = text;
+    }
+    setMealText("");
 
     const meals = data.mealServiceDietInfo[1].row;
 
