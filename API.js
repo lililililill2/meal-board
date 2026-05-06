@@ -70,6 +70,6 @@ updateBtn.addEventListener("click", async function () {
     breakfast.innerText = "에러 발생!";
     lunch.innerText = "에러 발생!";
     dinner.innerText = "에러 발생!";
-    console.log(err);
+    console.error;
   }
 });
